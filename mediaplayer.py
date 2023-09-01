@@ -81,7 +81,7 @@ def send_mattermost_status(trackinfo):
         'X-Csrf-Token': "".join(mmcsrf[0])
     }
 
-    # I have created a custom spotify emoji - Change if you don't have it
+    # Custom spotify emoji - Change to a different if you don't have it
     data = {"emoji":"spotify","text":trackinfo,"duration":""}
 
     r = requests.put(f'https://{mmserver}/api/v4/users/me/status/custom', data = json.dumps(data), headers=headers)
