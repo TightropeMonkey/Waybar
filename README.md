@@ -1,3 +1,5 @@
+# Waybar Spotify Mattermost Integration
+
 Credits to Alexays for developing the Waybar (https://github.com/Alexays/Waybar) and the media player support!
 
 I have added a small integration to push the Spotify metadata as a Mattermost custom status.
